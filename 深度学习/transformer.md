@@ -1,6 +1,6 @@
 ### Problems with RNN
 
-![image-20240518100219787](assets\image-20240518100219787.png)
+![image-20240518100219787](assets/image-20240518100219787.png)
 
 #### Slow computation for long sequence
 
@@ -16,17 +16,17 @@
 
 ### Introducing the Transformer
 
-![image-20240518100257016](assets\image-20240518100257016.png)
+![image-20240518100257016](assets/image-20240518100257016.png)
 
 - Transformer总体分为两个部分：编码器和解码器，编码器的一些信息输入到了解码器
 
 #### Input matrix(sequence, d_model)
 
-![img](assets\d35a23e7b60e4dbd9e7dc00811778ce1.png)
+![img](assets/d35a23e7b60e4dbd9e7dc00811778ce1.png)
 
 #### Input Embedding
 
-![image-20240518102025371](assets\image-20240518102025371.png)
+![image-20240518102025371](assets/image-20240518102025371.png)
 
 1. 将原始句子分割为token
 2. 将每一个token映射为一个数字（该token在我们训练集词汇表中的编号，比如YOUR在词汇表的位置是105）
